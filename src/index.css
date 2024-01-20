@@ -1,3 +1,18 @@
+/* index.css */
+
+/* Add styles for the Clock component */
+.react-digital-clock {
+  font-size: 2em;
+  color: #2b072d;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Optional: Add styles for the entire App */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +22,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: rgb(43, 7, 73);
+  border: 5px solid rgba(47, 14, 48, 0.202);
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Optional: Add some general styling for the App */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
 }
